@@ -31,6 +31,6 @@ DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://hakzee:root@cluster0.z
 DATABASE_NAME = environ.get('DATABASE_NAME', "hakzee")
 
 # Shortlink Info
-SHORTLINK = bool(environ.get('SHORTLINK', True)) # Set True Or False
+SHORTLINK = bool(environ.get('SHORTLINK', False)) # Set True Or False
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'api.shareus.io')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'cgv0BpgMaGdDhbrE0W09oZlaYsL2')
